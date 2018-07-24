@@ -1,0 +1,85 @@
+urxvt*foreground: white
+urxvt*background: black
+
+*color0:  #2E3436
+*color1:  #a40000
+*color2:  #4E9A06
+*color3:  #C4A000
+*color4:  #3465A4
+*color5:  #75507B
+*color6:  #ce5c00
+*color7:  #babdb9
+*color8:  #555753
+*color9:  #EF2929
+*color10: #8AE234
+*color11: #FCE94F
+*color12: #729FCF
+*color13: #AD7FA8
+*color14: #fcaf3e
+*color15: #EEEEEC
+
+
+!
+! borders
+!
+! pixels for external border
+URxvt*externalBorder:     0
+! pixels for internal border
+URxvt*internalBorder:     2
+! remove border
+URxvt*borderLess:         false
+URxvt.scrollBar: false
+
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+URxvt.depth: 0
+
+URxvt.intensityStyles:  false                                       
+! Turn it on here... (then boldFont)
+URxvt.allow_bold:       false                                        
+URxvt.font:             xft:Ubuntu Mono:style=Regular:pixelsize=17
+! ... but put this on Regular, else the ls output is overly fat
+URxvt.boldFont:         xft:Ubuntu Mono:style=Bold:pixelsize=17  
+URxvt.saveLines:        8192
+
+
+! Fix font space
+! any larger than -1 I dont like
+URxvt*letterSpace: -2
+
+
+
+
+
+!
+! effects
+!
+! enable transparency
+URxvt*transparent:          true
+! percentage of shading
+URxvt*.shading:             99
+! shading color
+URxvt*tintColor:            #1C1C1C
+! percentage of fading on unfocused
+!URxvt*fading:              0
+! fading color
+!URxvt*fadeColor:           color
+! use font glyphs 
+URxvt*skipBuiltinGlyphs:    true
+! number of lines between row
+URxvt*lineSpace:            0
+! space between letters
+!URxvt*letterSpace:          -3
+! cursor underline  
+URxvt*cursorUnderline:      false
+! cursor blinking 
+URxvt*cursorBlink:          false
+! blank the pointer on keypress or timeout
+URxvt*pointerBlank:         false
+! reverve bf and fg colors
+URxvt*reverseVideo:         false
