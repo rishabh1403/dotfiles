@@ -1,0 +1,10 @@
+install i3-gaps
+install urxvt
+install feh
+install suckless-tools (for dmenu)
+configure gaps and title in gaps-settings
+configure walpaper using feh
+install i3status
+fix trackpad ( in progress usinh libinput)
+install i3lock
+
