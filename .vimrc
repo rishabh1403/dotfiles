@@ -26,7 +26,7 @@ filetype indent on
 set smartindent
 autocmd BufRead,BufWritePre *.sh normal gg=G
 
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set colorcolumn=100
 
